@@ -1,0 +1,43 @@
+.faixa1 {
+    background: #E53939;
+    width: 110%;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.text-wrapper {
+    display: flex;
+    padding: 16px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.text-wrapper p {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    white-space: nowrap;
+    color: #fff;
+    margin: 0;
+    padding-right: 4px;
+}
+
+#text-wrapper1 {
+    animation: animafaixa 15s infinite linear;
+}
+
+#text-wrapper2 {
+    animation: animafaixa 15s infinite linear reverse;
+}
+
+@keyframes animafaixa {
+    0% {
+        transform: translateX(0%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}

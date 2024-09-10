@@ -1,0 +1,95 @@
+:root {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .container {
+  max-width: 1280px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 20px;
+} */
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.1;
+  margin-bottom: 32px;
+}
+
+.color-red {
+  color: #E53939;
+}
+
+p {
+  margin-bottom: 16px;
+  color: #d3d3d3;
+}
+
+button {
+  width: 230px;
+  border-radius: 8px;
+  margin-top: 16px;
+  border: none;
+  padding: 16px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #E53939;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* CONFIGURAÇÕES DA SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #E53939;
+  border: 1px solid #000000;
+}
+
+*::selection {
+  color: #ffffff;
+  background: #E53939;
+  -webkit-text-fill-color: #fef5f5;
+}
+
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 2em;
+  }
+
+}
