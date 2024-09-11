@@ -1,18 +1,31 @@
-.container {
+.container-conheca {
     max-width: 1280px;
-    width: 100%;
     margin: 0 auto;
     padding: 100px 20px 0px 20px;
 }
 
 .conheca-ac3 {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.conheca-ac3-text h2 {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.conheca-ac3-text h2 span {
+    display: block;
 }
 
 .conheca-ac3-text {
-    width: 54%;
     padding-bottom: 100px;
 }
+
+.conheca-ac3-text p:first-of-type {
+    margin-bottom: 16px;
+}
+
 
 .conheca-ac3-img {
     width: 490px;
@@ -38,17 +51,13 @@
     }
 
     .conheca-ac3-text {
-        width: 80%;
+        width: 100%;
     }
 }
 
 @media only screen and (max-width: 767px) {
     .conheca-ac3-text {
-        width: 95%;
-    }
-
-    .conheca-ac3-text p {
-        margin-right: 20px;
+        width: 100%;
     }
 
     .conheca-ac3-img {
@@ -66,5 +75,11 @@
         margin-top: -70px;
         display: flex;
         justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .conheca-ac3-text h2 {
+        white-space: wrap;
     }
 }

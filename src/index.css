@@ -16,12 +16,11 @@ body {
   box-sizing: border-box;
 }
 
-/* .container {
+.container {
   max-width: 1280px;
-  width: 100%;
   margin: 0 auto;
   padding: 100px 20px;
-} */
+}
 
 h1,
 h2,
@@ -30,13 +29,17 @@ p {
   margin: 0px;
 }
 
+a {
+  text-decoration: none;
+}
+
 img {
   max-width: 100%;
   height: auto;
   display: block;
 }
 
-h1 {
+h2 {
   font-size: 3em;
   line-height: 1.1;
   margin-bottom: 32px;
@@ -47,12 +50,11 @@ h1 {
 }
 
 p {
-  margin-bottom: 16px;
   color: #d3d3d3;
 }
 
-button {
-  width: 230px;
+.btn {
+  display: inline-block;
   border-radius: 8px;
   margin-top: 16px;
   border: none;
@@ -60,6 +62,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  text-align: center;
   background-color: #E53939;
   color: #fff;
   cursor: pointer;
@@ -88,8 +91,15 @@ button {
 }
 
 @media only screen and (max-width: 767px) {
-  h1 {
+  h2 {
     font-size: 2em;
+  }
+
+}
+
+@media only screen and (max-width: 560px) {
+  h2 {
+    font-size: 1.9em;
   }
 
 }
