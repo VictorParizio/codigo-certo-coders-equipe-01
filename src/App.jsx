@@ -1,6 +1,6 @@
-import ConhecaAC3 from './components/ConhecaAC3';
-import FaixaAnimada from './components/faixaAnimada';
-import Depoimentos from './components/depoimentos';
+import ConhecaAC3 from './components/ConhecaAC3/conhecaAC3';
+import FaixaAnimada from './components/FaixasAnimadas/faixaAnimada';
+import Depoimentos from './components/Depoimentos/depoimentos';
 
 function App() {
   return (
