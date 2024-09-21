@@ -1,16 +1,25 @@
-.container-depoimentos {
-    background-image: url(/src/assets/images/bg_depoimentos.png);
+.container-bg {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1)70%,
+            rgba(0, 0, 0, 0.9) 100%),
+        url(/src/assets/images/bg_depoimentos.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
 }
 
-.depoimentos h2 {
+.depoimentos-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+
+.depoimentos-container h2 {
     display: inline-block;
     white-space: nowrap;
 }
 
-.depoimentos h2 span {
+.depoimentos-container h2 span {
     display: block;
 }
 
@@ -100,7 +109,7 @@ cite {
 /*Media Querie*/
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .depoimentos h2 {
+    .depoimentos-container h2 {
         width: 50%;
     }
 }

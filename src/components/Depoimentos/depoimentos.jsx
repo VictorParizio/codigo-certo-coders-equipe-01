@@ -39,26 +39,28 @@ function Depoimentos() {
     }, []);
 
     return (
-        <section className='depoimentos'>
-            <h2>O que nossos <span className='color-red'>membros dizem?</span></h2>
-            <div className='depoimentos-card'>
-                <Swiper
-                    spaceBetween={20}
-                    slidesPerView={slidesPerView}
-                    navigation
-                    pagination={{ clickable: true }}
-                    className="swiper-container"
-                >
-                    {depoimentos.map((depoimento) => (
-                        <SwiperSlide key={depoimento.id}>
-                            <div className='depoimento'>
-                                <img src={depoimento.image} className='slide-img' alt="Depoimento" />
-                                <p>{depoimento.texto}</p>
-                                <cite>{depoimento.autor}</cite>
-                            </div>
-                        </SwiperSlide>
-                    ))}
-                </Swiper>
+        <section className='container-bg'>
+            <div className='depoimentos-container'>
+                <h2>O que nossos <span className='color-red'>membros dizem?</span></h2>
+                <div className='depoimentos-card'>
+                    <Swiper
+                        spaceBetween={20}
+                        slidesPerView={slidesPerView}
+                        navigation
+                        pagination={{ clickable: true }}
+                        className="swiper-container"
+                    >
+                        {depoimentos.map((depoimento) => (
+                            <SwiperSlide key={depoimento.id}>
+                                <div className='depoimento'>
+                                    <img src={depoimento.image} className='slide-img' alt="Depoimento" />
+                                    <p>{depoimento.texto}</p>
+                                    <cite>{depoimento.autor}</cite>
+                                </div>
+                            </SwiperSlide>
+                        ))}
+                    </Swiper>
+                </div>
             </div>
         </section>
     );
