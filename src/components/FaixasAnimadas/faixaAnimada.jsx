@@ -1,30 +1,15 @@
 import './FaixaAnimada.css';
 
 const FaixaAnimada = () => {
+    const textos = Array(20).fill("Construindo o amanhã, hoje");
+
     return (
         <section className="faixa">
             <div className="faixa1">
                 <div className="text-wrapper" id="text-wrapper1">
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
-                    <p>Construindo o amanhã, hoje</p>
+                    {textos.map((texto, index) => (
+                        <p key={index}>{texto}</p>
+                    ))}
                 </div>
             </div>
         </section>
@@ -32,3 +17,4 @@ const FaixaAnimada = () => {
 };
 
 export default FaixaAnimada;
+

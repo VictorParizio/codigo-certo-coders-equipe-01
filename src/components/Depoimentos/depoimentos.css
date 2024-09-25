@@ -28,7 +28,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    min-height: 240px;
+    min-height: 294px;
     background-color: rgba(20, 20, 20, 0.18);
     border: 1px solid rgba(229, 57, 57, 0.30);
     border-radius: 8px;
@@ -116,19 +116,19 @@ cite {
 
 @media only screen and (min-width: 1025px) and (max-width: 1280px) {
     .depoimento {
-        min-height: 280px;
+        min-height: 345px;
     }
 }
 
 @media only screen and (min-width: 881px) and (max-width: 1024px) {
     .depoimento {
-        min-height: 256px;
+        min-height: 320px;
     }
 }
 
 @media only screen and (min-width: 551px) and (max-width: 700px) {
     .depoimento {
-        min-height: 280px;
+        min-height: 345px;
     }
 }
 

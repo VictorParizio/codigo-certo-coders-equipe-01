@@ -3,7 +3,7 @@
     margin: 0 auto;
     padding: 100px 20px;
     border-top: 1px solid;
-    border-image: linear-gradient(to right, #000000, #000000, #E53939, #000000, #000000) 1;
+    border-image: linear-gradient(to right, #000000, #E53939, #000000) 1;
 }
 
 .faq-titulo {
