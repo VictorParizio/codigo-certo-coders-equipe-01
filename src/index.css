@@ -1,68 +1,99 @@
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  color: #ffffff;
+  background-color: #000000;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+html,
+body {
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  box-sizing: border-box;
 }
 
-h1 {
-  font-size: 3.2em;
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+h2 {
+  font-size: 3em;
   line-height: 1.1;
+  margin-bottom: 32px;
 }
 
-button {
+.color-red {
+  color: #E53939;
+}
+
+p {
+  color: #d3d3d3;
+}
+
+.btn {
+  display: inline-block;
   border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  margin-top: 16px;
+  border: none;
+  padding: 16px;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  text-align: center;
+  background-color: #E53939;
+  color: #fff;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+/* CONFIGURAÇÕES DA SCROLLBAR */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #E53939;
+  border: 1px solid #000000;
+}
+
+*::selection {
+  color: #ffffff;
+  background: #E53939;
+  -webkit-text-fill-color: #fef5f5;
+}
+
+@media only screen and (max-width: 767px) {
+  h2 {
+    font-size: 2em;
   }
-  a:hover {
-    color: #747bff;
+
+}
+
+@media only screen and (max-width: 560px) {
+  h2 {
+    font-size: 1.9em;
   }
-  button {
-    background-color: #f9f9f9;
-  }
+
 }
