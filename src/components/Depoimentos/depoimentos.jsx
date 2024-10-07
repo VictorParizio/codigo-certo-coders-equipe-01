@@ -40,8 +40,8 @@ function Depoimentos() {
 
     return (
         <section className='container-bg'>
-            <div className='depoimentos-container'>
-                <h2>O que nossos <span className='color-red'>membros dizem?</span></h2>
+            <div className='container'>
+                <h2 className='depoimentos-title'>O que nossos <span className='color-red'>membros dizem?</span></h2>
                 <div className='depoimentos-card'>
                     <Swiper
                         spaceBetween={20}

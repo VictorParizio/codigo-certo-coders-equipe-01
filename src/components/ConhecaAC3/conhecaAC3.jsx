@@ -2,7 +2,7 @@ import './conhecaAC3.css';
 
 function ConhecaAC3() {
     return (
-        <section className='conheca-ac3-container'>
+        <section className='conheca-ac3-container container'>
             <div className="conheca-ac3">
                 <div className='conheca-ac3-text'>
                     <h2>Por que escolher a <span className='color-red'>Código Certo Coders?</span></h2>

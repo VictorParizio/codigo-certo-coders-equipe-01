@@ -57,7 +57,7 @@ function Faq() {
 
     //    
     return (
-        <section className="faq-container">
+        <section className="container border">
             <h2 className="faq-titulo">
                 Tire as suas <span className='color-red'>dúvidas.</span>
             </h2>

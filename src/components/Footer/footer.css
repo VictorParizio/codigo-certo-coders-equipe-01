@@ -1,12 +1,5 @@
-.footer-container {
-    border-top: 1px solid;
-    border-image: linear-gradient(to right, #000000, #E53939, #000000) 1;
-}
-
 .footer-box {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 225px 20px 60px 20px;
+    padding: 225px 20px 60px 20px !important;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -64,13 +57,18 @@
     text-align: center;
 }
 
+@media only screen and (min-width: 681px) and (max-width: 767px) {
+    .footer-box {
+        padding: 160px 15px 40px 15px !important;
+    }
+}
 
 @media only screen and (max-width: 680px) {
     .footer-box {
         flex-direction: column;
         align-items: start;
         gap: 40px;
-        padding: 160px 20px 40px 20px;
+        padding: 160px 15px 40px 15px !important;
     }
 
     .footer-lista-icones {

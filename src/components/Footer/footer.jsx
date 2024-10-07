@@ -4,8 +4,8 @@ import KeyboardDoubleArrowRightRoundedIcon from '@mui/icons-material/KeyboardDou
 
 function Footer() {
     return (
-        <section className='footer-container'>
-            <div className='footer-box'>
+        <section className='border'>
+            <div className='footer-box container'>
                 <div className='footer-image'>
                     <img src='src/assets/images/icones/logo-branco.svg' />
                 </div>
@@ -29,9 +29,9 @@ function Footer() {
 
                 <div className='footer-menu'>
                     <ul>
-                        <li className="footer-icon"> <a href='https://chat.whatsapp.com/CYrfRQRLVcM6r0CreK4gYU'><KeyboardDoubleArrowRightRoundedIcon fontSize="small" />Entrar em Contato</a></li>
-                        <li className="footer-icon"> <a href='#'><KeyboardDoubleArrowRightRoundedIcon fontSize="small" />Trabalhe Conosco</a></li>
-                        <li className="footer-icon"> <a href='#'><KeyboardDoubleArrowRightRoundedIcon fontSize="small" />Politica e Privacidade</a></li>
+                        <li className="footer-icon"> <a href='https://chat.whatsapp.com/CYrfRQRLVcM6r0CreK4gYU' target="_blank"><KeyboardDoubleArrowRightRoundedIcon fontSize="small" />Entrar em Contato</a></li>
+                        <li className="footer-icon"> <a href='#'><KeyboardDoubleArrowRightRoundedIcon fontSize="small" target="_blank" />Trabalhe Conosco</a></li>
+                        <li className="footer-icon"> <a href='#'><KeyboardDoubleArrowRightRoundedIcon fontSize="small" target="_blank" />Politica e Privacidade</a></li>
                     </ul>
                 </div>
             </div>

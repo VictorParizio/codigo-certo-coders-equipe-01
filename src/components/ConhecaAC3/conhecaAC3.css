@@ -1,7 +1,5 @@
 .conheca-ac3-container {
-    max-width: 1280px;
-    margin: 0 auto;
-    padding: 100px 20px 0px 20px;
+    padding: 100px 20px 0px 20px !important;
 }
 
 .conheca-ac3 {
@@ -56,6 +54,10 @@
 }
 
 @media only screen and (max-width: 767px) {
+    .conheca-ac3-container {
+        padding: 80px 15px 0px 15px !important;
+    }
+
     .conheca-ac3-text {
         width: 100%;
     }
