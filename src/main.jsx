@@ -2,6 +2,7 @@ import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
+import './App.css'
 
 //Swiper (carousel) da seção depoimentos
 import { register } from 'swiper/element/bundle'
