@@ -1,19 +1,21 @@
 import ConhecaAC3 from "./components/ConhecaAC3/conhecaAC3";
-import ContactForm from "./components/ContactForm/ContactForm";
 import Depoimentos from "./components/Depoimentos/depoimentos";
 import FaixaAnimada from "./components/FaixasAnimadas/faixaAnimada";
 import Faq from "./components/Faq/faq";
 import Participar from "./components/section-participar/Participar";
+import ContactForm from "./components/ContactForm/ContactForm";
+import Footer from "/components/Footer/footer"
 
 function App() {
   return (
     <>
-      <Participar />
       <ConhecaAC3 />
       <FaixaAnimada />
+      <Participar />
       <Depoimentos />
       <Faq />
       <ContactForm />
+      <Footer />
     </>
   );
 }

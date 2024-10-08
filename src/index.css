@@ -1,15 +1,15 @@
-:root {
-  font-family: "Roboto", sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-  color: #ffffff;
-  background-color: #000000;
-}
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  color: #ffffff;
+  background-color: #000000;
 }
 
 html,
@@ -17,13 +17,14 @@ body {
   overflow-x: hidden;
 }
 
-
-
 body {
   margin: 0 auto;
   max-width: 1280px;
 }
 
+ul {
+  list-style: none;
+}
 
 a {
   text-decoration: none;
@@ -39,29 +40,12 @@ h2 {
   font-size: 3em;
   line-height: 1.1;
   margin-bottom: 32px;
+  font-weight: 600;
 }
 
-.color-red {
-  color: #E53939;
-}
 
 p {
   color: #d3d3d3;
-}
-
-.btn {
-  display: inline-block;
-  border-radius: 8px;
-  margin-top: 16px;
-  border: none;
-  padding: 16px;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  text-align: center;
-  background-color: #E53939;
-  color: #fff;
-  cursor: pointer;
 }
 
 /* CONFIGURAÇÕES DA SCROLLBAR */
