@@ -1,0 +1,86 @@
+.container-bg {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1)70%,
+            rgba(0, 0, 0, 0.9) 100%),
+        url(/src/assets/images/bg_depoimentos.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.container-contact-form {
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 20px;
+    gap: 50px;
+}
+
+span {
+    color: #E53939;
+}
+
+.contact {
+    width: 50%;
+}
+
+.container-sociais {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.rede-sociais {
+    display: flex;
+    gap: 5px;
+}
+
+.circle-sociais {
+    border: 2px solid #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.contact-form {
+    width: 50%;
+    border: 1px solid #E539394D;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+   
+}
+
+.title-form {
+
+font-size: 30px;
+font-weight: 700;
+color: #fff;
+
+}
+
+.container-inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+
+@media screen and (max-width: 600px) {
+    .container-contact-form {
+    
+        display: flex;
+       flex-direction: column;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact-form {
+        width: 100%;
+    }
+}
+

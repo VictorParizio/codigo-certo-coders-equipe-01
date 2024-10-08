@@ -12,15 +12,18 @@ body {
   background-color: #000000;
 }
 
-
 html,
 body {
   overflow-x: hidden;
 }
 
+body {
+  margin: 0 auto;
+  max-width: 1280px;
+}
+
 ul {
   list-style: none;
-  padding: 0;
 }
 
 a {
