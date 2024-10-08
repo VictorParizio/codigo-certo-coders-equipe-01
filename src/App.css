@@ -4,6 +4,18 @@
   padding: 100px 20px;
 }
 
+.container-bg {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.1) 70%,
+      rgba(0, 0, 0, 0.9) 100%
+    ),
+    url(/src/assets/images/bg_depoimentos.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
 @media only screen and (max-width: 767px) {
   .container {
     padding: 80px 15px;
@@ -20,7 +32,7 @@
   font-weight: 500;
   font-family: inherit;
   text-align: center;
-  background-color: #E53939;
+  background-color: #e53939;
   color: #fff;
   cursor: pointer;
   transition: transform 0.5s ease-out;
@@ -32,11 +44,11 @@
 }
 
 .color-red {
-  color: #E53939;
+  color: #e53939;
   font-weight: 600;
 }
 
 .border {
   border-top: 1px solid;
-  border-image: linear-gradient(to right, #000000, #E53939, #000000) 1;
+  border-image: linear-gradient(to right, #000000, #e53939, #000000) 1;
 }

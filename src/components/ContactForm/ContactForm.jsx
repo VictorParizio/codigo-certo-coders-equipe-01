@@ -2,16 +2,16 @@ import Discord from "../../assets/images/discord.png";
 import Github from "../../assets/images/github.png";
 import Instagram from "../../assets/images/instagram.png";
 import Linkedin from "../../assets/images/linkedin.png";
-import Button from "../Button/Button";
-import Input from "../Input/Input";
-import Paragraph from "../Paragraph/Paragraph";
-import Title from "../Title/Title";
+import Input from "./components/Input/Input";
+import Paragraph from "./components/Paragraph/Paragraph";
+import Title from "./components/Title/Title";
+import Button from "./components/Button/Button";
 import "./ContactForm.css";
 
 const ContactForm = () => {
   return (
-    <section className="container-bg">
-      <div className="container-contact-form">
+    <section className="container-bg ">
+      <div className="container-contact-form container">
         <div className="contact">
           <Title>
             Entre em <br /> <span>contato conosco. </span>
